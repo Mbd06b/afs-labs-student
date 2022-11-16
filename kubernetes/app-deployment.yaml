@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: harbor.dev.afsmtddso.com/mdowell-harbor-project/lab-env-repo/app
+        image: harbor.dev.afsmtddso.com/mdowell-harbor-project/lab-env-repo/app:decc62e-383bf62
         ports:
         - containerPort: 5000
